@@ -9,9 +9,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Unique Widgets',
-      themeMode: ThemeMode.dark,
+      themeMode: ThemeMode.light,
       darkTheme: ThemeData.dark(),
-      theme: ThemeData.dark(),
+      theme: ThemeData(
+        useMaterial3: false,
+      ),
       home: HomeScreen(),
     );
   }
