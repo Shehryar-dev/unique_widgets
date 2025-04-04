@@ -20,7 +20,9 @@ class _ChoiceChipWidgetState extends State<ChoiceChipWidget> {
       body: Center(
         child: ChoiceChip(
           selectedColor: Colors.blue,
-          avatar: Icon(Icons.media_bluetooth_off),
+          // avatar: Icon(Icons.media_bluetooth_off),
+          avatar: Image.asset('assets/images/weather-app-icon.png'),
+          avatarBorder: Border.all(color: Colors.black,style: BorderStyle.solid),
           label: Text('Choice Chip'), selected: _isSelected, onSelected: (value){
           setState(() {
             _isSelected = value;
