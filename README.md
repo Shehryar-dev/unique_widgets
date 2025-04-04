@@ -10,6 +10,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 
 ## Widgets Implemented
 - [x] **Hero Widget** (Added on: *April 3, 2025*)
+- [x] **ChipChoice Widget** (Added on: *April 4, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
