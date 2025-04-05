@@ -1,3 +1,4 @@
+
 import '../constants/screen_path.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -29,7 +30,7 @@ class HomeScreen extends StatelessWidget {
               Divider(),
               SizedBox(height: 16,),
               InkWell(
-                  onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=>ChoiceChipWidget())),
+                  onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=>SilverAppbarWidget())),
                   child: Text('Widget no 3: SilverAppBar', style: Theme.of(context).textTheme.headlineMedium,)),
               SizedBox(height: 16,),
               Divider(),
