@@ -11,6 +11,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 ## Widgets Implemented
 - [x] **Hero Widget** (Added on: *April 3, 2025*)
 - [x] **ChipChoice Widget** (Added on: *April 4, 2025*)
+- [x] **SliverAppBar and SliverList Widget** (Added on: *April 5, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
@@ -21,7 +22,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 ## How to Use
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/unique-widgets.git
+   git clone https://github.com/Shehryar-dev/unique_widgets.git
    ```
 2. Open the project in your preferred IDE (VS Code, Android Studio, etc.).
 3. Run the project using:
