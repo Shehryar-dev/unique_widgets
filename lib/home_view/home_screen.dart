@@ -27,6 +27,12 @@ class HomeScreen extends StatelessWidget {
                   child: Text('Widget no 2: ChoiceChip', style: Theme.of(context).textTheme.headlineMedium,)),
               SizedBox(height: 16,),
               Divider(),
+              SizedBox(height: 16,),
+              InkWell(
+                  onTap: ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=>ChoiceChipWidget())),
+                  child: Text('Widget no 3: SilverAppBar', style: Theme.of(context).textTheme.headlineMedium,)),
+              SizedBox(height: 16,),
+              Divider(),
               SizedBox(height: 16,)
 
             ],
