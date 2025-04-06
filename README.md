@@ -12,6 +12,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Hero Widget** (Added on: *April 3, 2025*)
 - [x] **ChipChoice Widget** (Added on: *April 4, 2025*)
 - [x] **SliverAppBar and SliverList Widget** (Added on: *April 5, 2025*)
+- [x] **ExpansionTile and SliverList Widget** (Added on: *April 6, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
