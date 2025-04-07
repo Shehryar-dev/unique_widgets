@@ -1,5 +1,7 @@
 
 
+import 'package:unique_widgets/unique_widgets/5_wrap_widget/wrap_widget.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -33,6 +35,10 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.expand_circle_down_outlined,
         destination: const ExpansionTileWidget(),
       ),
+      _WidgetItem( title: 'Wrap Widget',
+        subtitle: 'Responsive chips using Wrap',
+        icon: Icons.wrap_text_rounded,
+        destination: const WrapWidgetExample(),),
     ];
 
     return Scaffold(
