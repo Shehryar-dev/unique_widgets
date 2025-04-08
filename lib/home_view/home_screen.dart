@@ -1,6 +1,7 @@
 
 
 
+
 import '../constants/screen_path.dart';
 
 
@@ -38,6 +39,13 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Responsive chips using Wrap',
         icon: Icons.wrap_text_rounded,
         destination: const WrapWidgetExample(),),
+      _WidgetItem(
+        title: 'Time Picker Widget',
+        subtitle: 'Select time with Flutter\'s picker',
+        icon: Icons.access_time_filled_outlined,
+        destination: const TimePickerWidget(),
+      ),
+
     ];
 
     return Scaffold(
