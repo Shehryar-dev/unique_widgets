@@ -14,6 +14,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **SliverAppBar and SliverList Widget** (Added on: *April 5, 2025*)
 - [x] **ExpansionTile and SliverList Widget** (Added on: *April 6, 2025*)
 - [x] **Wrap Widget** (Added on: *April 7, 2025*)
+- [x] **Time Picker Widget** (Added on: *April 8, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
