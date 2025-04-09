@@ -3,6 +3,7 @@
 
 
 import '../constants/screen_path.dart';
+import '../unique_widgets/7_range_slider_widget/range_slider_widget.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -45,7 +46,12 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.access_time_filled_outlined,
         destination: const TimePickerWidget(),
       ),
-
+      _WidgetItem(
+        title: 'RangeSlider Widget',
+        subtitle: 'Select value between range using slider',
+        icon: Icons.tune,
+        destination: const RangeSliderWidget(),
+      ),
     ];
 
     return Scaffold(
