@@ -3,7 +3,6 @@
 
 
 import '../constants/screen_path.dart';
-import '../unique_widgets/7_range_slider_widget/range_slider_widget.dart';
 
 
 class HomeScreen extends StatelessWidget {
