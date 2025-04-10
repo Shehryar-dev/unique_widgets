@@ -2,6 +2,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/8_popup_menu_button_widget/popup_menu_widget.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -50,6 +52,12 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Select value between range using slider',
         icon: Icons.tune,
         destination: const RangeSliderWidget(),
+      ),
+      _WidgetItem(
+        title: 'Widget 2 - PopupMenuButton',
+        subtitle: 'Interactive menu with selectable actions',
+        icon: Icons.more_vert,
+        destination: PopupMenuScreen(),
       ),
     ];
 
