@@ -24,7 +24,9 @@ class _PopupMenuScreenState extends State<PopupMenuScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Popup Menu Example')),
+      appBar: AppBar(title: const Text('・・・ Popup Menu Example'),
+        backgroundColor: Colors.indigo.shade800,
+      ),
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
