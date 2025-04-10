@@ -1,6 +1,6 @@
 
-import 'package:flutter/material.dart';
-import 'package:unique_widgets/unique_widgets/8_popup_menu_button_widget/widgets/custom_popup_tile.dart';
+
+import '../../constants/screen_path.dart';
 
 class PopupMenuScreen extends StatefulWidget {
   const PopupMenuScreen({super.key});
