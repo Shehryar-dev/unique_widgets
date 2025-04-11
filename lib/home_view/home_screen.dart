@@ -59,7 +59,12 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.more_vert,
         destination: PopupMenuScreen(),
       ),
-
+      _WidgetItem(
+        title: 'Widget 3 - PageView',
+        subtitle: 'Swipeable screens with page indicator',
+        icon: Icons.view_carousel,
+        destination: const PageViewScreen(),
+      ),
 
     ];
 
