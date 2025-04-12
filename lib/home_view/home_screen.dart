@@ -4,7 +4,6 @@
 
 
 import '../constants/screen_path.dart';
-import '../unique_widgets/10_bottom_nav_bar/bottom_navigation_bar.dart';
 
 
 class HomeScreen extends StatelessWidget {

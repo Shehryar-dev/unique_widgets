@@ -17,7 +17,8 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Time Picker Widget** (Added on: *April 8, 2025*)
 - [x] **Range Slider Widget** (Added on: *April 9, 2025*)
 - [x] **PopupMenuButton Widget** (Added on: *April 10, 2025*)
-- [x] **PageView Widget** (Added on: *April 10, 2025*)
+- [x] **PageView Widget** (Added on: *April 11, 2025*)
+- [x] **BottomNavigationBar  Widget** (Added on: *April 12, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?

@@ -18,6 +18,7 @@ export 'package:unique_widgets/unique_widgets/6_time_picker_widget/time_picker_w
 export 'package:unique_widgets/unique_widgets/7_range_slider_widget/range_slider_widget.dart';
 export 'package:unique_widgets/unique_widgets/8_popup_menu_button_widget/popup_menu_widget.dart';
 export '../unique_widgets/9_pageview_widget/page_view_widget.dart';
+export '../unique_widgets/10_bottom_nav_bar/bottom_navigation_bar.dart';
 
 
 
