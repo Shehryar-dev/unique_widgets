@@ -25,3 +25,6 @@ export '../unique_widgets/9_pageview_widget/page_view_widget.dart';
 ///nested widget
 export 'package:unique_widgets/unique_widgets/4_expansion_tile_widget/widgets/custom_tile.dart';
 export 'package:unique_widgets/unique_widgets/8_popup_menu_button_widget/widgets/custom_popup_tile.dart';
+export 'package:unique_widgets/unique_widgets/10_bottom_nav_bar/pages/home_screen_page.dart';
+export 'package:unique_widgets/unique_widgets/10_bottom_nav_bar/pages/profile_page.dart';
+export 'package:unique_widgets/unique_widgets/10_bottom_nav_bar/pages/search_page.dart';
