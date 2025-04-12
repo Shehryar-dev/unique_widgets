@@ -64,6 +64,12 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.view_carousel,
         destination: const PageViewScreen(),
       ),
+      _WidgetItem(
+        title: 'Bottom Navigation App',
+        subtitle: 'Persistent BottomNavigationBar with Page Switching',
+        icon: Icons.navigation,
+        destination: const BottomNavScreen(),
+      ),
 
     ];
 
