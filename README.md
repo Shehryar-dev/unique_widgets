@@ -20,6 +20,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **PageView Widget** (Added on: *April 11, 2025*)
 - [x] **BottomNavigationBar  Widget** (Added on: *April 12, 2025*)
 - [x] **Flutter Stepper Widget** (Added on: *April 13, 2025*)
+- [x] **ModalBottomSheet Widget** (Added on: *April 14, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
