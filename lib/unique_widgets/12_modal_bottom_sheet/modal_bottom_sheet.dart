@@ -38,7 +38,9 @@ class ModalBottomSheetExample extends StatelessWidget {
         onTap: () => _showBottomSheet(context),
         child: CircleAvatar(
           radius: 50,
-          backgroundImage: AssetImage('assets/images/profile.jpg'),
+          backgroundImage: NetworkImage(
+            'https://media.licdn.com/dms/image/v2/D4D03AQE6CfgEeGRXkg/profile-displayphoto-shrink_200_200/B4DZYDFcFzHwAc-/0/1743808480243?e=1750291200&v=beta&t=w4X-UrMVplbtSsOzEV7NrcYmnZZZCrNb56JWY0p49rc',
+          ),
         ),
       ),
     );

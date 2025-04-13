@@ -20,6 +20,7 @@ export 'package:unique_widgets/unique_widgets/8_popup_menu_button_widget/popup_m
 export '../unique_widgets/9_pageview_widget/page_view_widget.dart';
 export '../unique_widgets/10_bottom_nav_bar/bottom_navigation_bar.dart';
 export '../unique_widgets/11_stepper_widget/stepper_screen.dart';
+export '../unique_widgets/12_modal_bottom_sheet/modal_bottom_sheet.dart';
 
 
 
