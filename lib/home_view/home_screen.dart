@@ -4,6 +4,7 @@
 
 
 import '../constants/screen_path.dart';
+import '../unique_widgets/12_modal_bottom_sheet/modal_bottom_sheet.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -75,6 +76,12 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Multi-step input form with validation',
         icon: Icons.stacked_line_chart_rounded,
         destination: const StepperScreen(),
+      ),
+      _WidgetItem(
+        title: 'Modal Bottom Sheet',
+        subtitle: 'Shows profile action sheet using showModalBottomSheet',
+        icon: Icons.keyboard_arrow_up_rounded,
+        destination: const ModalBottomSheetExample(),
       ),
 
     ];
