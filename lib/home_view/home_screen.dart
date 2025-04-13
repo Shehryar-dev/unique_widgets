@@ -4,6 +4,7 @@
 
 
 import '../constants/screen_path.dart';
+import '../unique_widgets/11_stepper_widget/stepper_screen.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -69,6 +70,12 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Persistent BottomNavigationBar with Page Switching',
         icon: Icons.navigation,
         destination: const BottomNavScreen(),
+      ),
+      _WidgetItem(
+        title: 'Stepper Widget',
+        subtitle: 'Multi-step input form with validation',
+        icon: Icons.stacked_line_chart_rounded,
+        destination: const StepperScreen(),
       ),
 
     ];
