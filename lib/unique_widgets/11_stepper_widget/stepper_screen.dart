@@ -38,7 +38,7 @@ class _StepperScreenState extends State<StepperScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Stepper Widget")),
+      appBar: AppBar(title: const Text("Stepper Widget"), backgroundColor: Colors.indigo.shade900,),
       body: Form(
         key: _formKey,
         child: Stepper(
