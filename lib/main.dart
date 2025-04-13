@@ -9,7 +9,8 @@ void main() {
     runApp(DevicePreview(builder: (context) => MyApp()));
   } else {
     runApp(MyApp());
-  }}
+  }
+  }
 
 
 
