@@ -38,9 +38,7 @@ class ModalBottomSheetExample extends StatelessWidget {
         onTap: () => _showBottomSheet(context),
         child: CircleAvatar(
           radius: 50,
-          backgroundImage: NetworkImage(
-            'https://i.pravatar.cc/150?img=4',
-          ),
+          backgroundImage: AssetImage('assets/images/profile.jpg'),
         ),
       ),
     );
