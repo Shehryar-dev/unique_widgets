@@ -13,7 +13,7 @@ class _AnimatedCrossFadeExampleState extends State<AnimatedCrossFadeExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('AnimatedCrossFade Example')),
+      appBar: AppBar(title: const Text('AnimatedCrossFade Example'), backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -36,6 +36,7 @@ class _AnimatedCrossFadeExampleState extends State<AnimatedCrossFadeExample> {
             ),
             const SizedBox(height: 24),
             ElevatedButton.icon(
+              style: ButtonStyle(backgroundColor:  MaterialStateProperty.all(Colors.indigo.shade900)),
               onPressed: () {
                 setState(() {
                   _showFirst = !_showFirst;
