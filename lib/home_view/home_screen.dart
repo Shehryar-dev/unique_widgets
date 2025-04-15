@@ -3,9 +3,6 @@
 
 
 
-import 'package:unique_widgets/unique_widgets/13_animated_cross_fade/animated_cross_fade_screen.dart';
-import 'package:unique_widgets/unique_widgets/14_search_bar_widget/search_bar_screen.dart';
-
 import '../constants/screen_path.dart';
 
 

@@ -26,6 +26,7 @@ class _SearchBarExampleState extends State<SearchBarExample> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Search Bar Example'),
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
