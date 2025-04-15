@@ -10,7 +10,4 @@ void main() {
   } else {
     runApp(MyApp());
   }
-  }
-
-
-
+}
