@@ -3,6 +3,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/13_animated_cross_fade/animated_cross_fade_screen.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -81,6 +83,12 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Shows profile action sheet using showModalBottomSheet',
         icon: Icons.keyboard_arrow_up_rounded,
         destination: const ModalBottomSheetExample(),
+      ),
+      _WidgetItem(
+        title: 'Animated CrossFade',
+        subtitle: 'Smooth transition between two widgets',
+        icon: Icons.swap_horizontal_circle_outlined,
+        destination: const AnimatedCrossFadeExample(),
       ),
 
     ];
