@@ -4,6 +4,7 @@
 
 
 import 'package:unique_widgets/unique_widgets/13_animated_cross_fade/animated_cross_fade_screen.dart';
+import 'package:unique_widgets/unique_widgets/14_search_bar_widget/search_bar_screen.dart';
 
 import '../constants/screen_path.dart';
 
@@ -90,6 +91,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.swap_horizontal_circle_outlined,
         destination: const AnimatedCrossFadeExample(),
       ),
+      _WidgetItem(
+        title: 'Search Bar',
+        subtitle: 'Material 3 search bar with list filtering',
+        icon: Icons.search,
+        destination: const SearchBarExample(),
+      ),
+
 
     ];
 
