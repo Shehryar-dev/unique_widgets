@@ -21,8 +21,9 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **BottomNavigationBar  Widget** (Added on: *April 12, 2025*)
 - [x] **Flutter Stepper Widget** (Added on: *April 13, 2025*)
 - [x] **ModalBottomSheet Widget** (Added on: *April 14, 2025*)  
-- [x] **AnimatedCrossFade Widget** (Added on: *April 15, 2025*) 
-- [x] **Search Bar Widget** (Added on: *April 16, 2025*)
+- [x] **AnimatedCrossFade Widget** (Added on: *April 15, 2025*)
+- [x] **Search Bar Widget** (Added on: *April 16, 2025*) 
+- [x] **Search Bar Widget** (Added on: *April 17, 2025*) 
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?

@@ -95,6 +95,13 @@ class HomeScreen extends StatelessWidget {
         destination: const SearchBarExample(),
       ),
 
+      _WidgetItem(
+        title: 'SimpleDialog',
+        subtitle: 'Popup dialog with selectable options',
+        icon: Icons.chat_bubble_outline,
+        destination: SimpleDialogExample(),
+      ),
+
 
     ];
 
