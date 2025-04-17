@@ -39,11 +39,11 @@ class SimpleDialogExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("SimpleDialog Example")),
+      appBar: AppBar(title: const Text("SimpleDialog Example"), backgroundColor: Colors.indigo.shade900),
       body: Center(
         child: ElevatedButton(
           onPressed: () => _showOptionsDialog(context),
-          style: ElevatedButton.styleFrom(backgroundColor: Colors.indigo),
+          style: ElevatedButton.styleFrom(backgroundColor: Colors.indigo.shade900),
           child: const Text("Show Dialog"),
         ),
       ),
