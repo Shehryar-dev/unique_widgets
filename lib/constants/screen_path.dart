@@ -23,6 +23,7 @@ export '../unique_widgets/11_stepper_widget/stepper_screen.dart';
 export '../unique_widgets/12_modal_bottom_sheet/modal_bottom_sheet.dart';
 export 'package:unique_widgets/unique_widgets/13_animated_cross_fade/animated_cross_fade_screen.dart';
 export 'package:unique_widgets/unique_widgets/14_search_bar_widget/search_bar_screen.dart';
+export 'package:unique_widgets/unique_widgets/15_simple_dialog/simple_dialog.dart';
 
 
 
