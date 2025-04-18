@@ -4,6 +4,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/16_expanded_widget/expanded_widget.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -104,6 +106,12 @@ class HomeScreen extends StatelessWidget {
       ),
 
 
+      _WidgetItem(
+        title: 'Expanded Widget',
+        subtitle: 'Use inside Column or Row for flexible layouts',
+        icon: Icons.expand,
+        destination: const ExpandedWidgetExample(),
+      ),
 
     ];
 
