@@ -24,6 +24,7 @@ export '../unique_widgets/12_modal_bottom_sheet/modal_bottom_sheet.dart';
 export 'package:unique_widgets/unique_widgets/13_animated_cross_fade/animated_cross_fade_screen.dart';
 export 'package:unique_widgets/unique_widgets/14_search_bar_widget/search_bar_screen.dart';
 export 'package:unique_widgets/unique_widgets/15_simple_dialog/simple_dialog.dart';
+export 'package:unique_widgets/unique_widgets/16_expanded_widget/expanded_widget.dart';
 
 
 
