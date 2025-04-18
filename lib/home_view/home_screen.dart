@@ -16,104 +16,103 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<_WidgetItem> widgetItems = [
       _WidgetItem(
-        title: 'Hero Widget',
+        title: 'Widget 1 - Hero Widget',
         subtitle: 'Smooth transition between screens',
         icon: Icons.animation,
         destination: const HeroWidget(),
       ),
       _WidgetItem(
-        title: 'ChoiceChip Widget',
+        title: 'Widget 2 - ChoiceChip Widget',
         subtitle: 'Select options with chips',
         icon: Icons.chair_alt_outlined,
         destination: const ChoiceChipWidget(),
       ),
       _WidgetItem(
-        title: 'SliverAppBar Widget',
+        title: 'Widget 3 - SliverAppBar Widget',
         subtitle: 'Scroll-based AppBar animation',
         icon: Icons.view_day_outlined,
         destination: const SilverAppbarWidget(),
       ),
       _WidgetItem(
-        title: 'ExpansionTile Widget',
+        title: 'Widget 4 - ExpansionTile Widget',
         subtitle: 'Expandable content sections',
         icon: Icons.expand_circle_down_outlined,
         destination: const ExpansionTileWidget(),
       ),
-      _WidgetItem( title: 'Wrap Widget',
+      _WidgetItem(
+        title: 'Widget 5 - Wrap Widget',
         subtitle: 'Responsive chips using Wrap',
         icon: Icons.wrap_text_rounded,
-        destination: const WrapWidgetExample(),),
+        destination: const WrapWidgetExample(),
+      ),
       _WidgetItem(
-        title: 'Time Picker Widget',
+        title: 'Widget 6 - Time Picker Widget',
         subtitle: 'Select time with Flutter\'s picker',
         icon: Icons.access_time_filled_outlined,
         destination: const TimePickerWidget(),
       ),
       _WidgetItem(
-        title: 'RangeSlider Widget',
+        title: 'Widget 7 - RangeSlider Widget',
         subtitle: 'Select value between range using slider',
         icon: Icons.tune,
         destination: const RangeSliderWidget(),
       ),
       _WidgetItem(
-        title: 'Widget 2 - PopupMenuButton',
+        title: 'Widget 8 - PopupMenuButton',
         subtitle: 'Interactive menu with selectable actions',
         icon: Icons.more_vert,
         destination: PopupMenuScreen(),
       ),
       _WidgetItem(
-        title: 'Widget 3 - PageView',
+        title: 'Widget 9 - PageView',
         subtitle: 'Swipeable screens with page indicator',
         icon: Icons.view_carousel,
         destination: const PageViewScreen(),
       ),
       _WidgetItem(
-        title: 'Bottom Navigation App',
+        title: 'Widget 10 - Bottom Navigation App',
         subtitle: 'Persistent BottomNavigationBar with Page Switching',
         icon: Icons.navigation,
         destination: const BottomNavScreen(),
       ),
       _WidgetItem(
-        title: 'Stepper Widget',
+        title: 'Widget 11 - Stepper Widget',
         subtitle: 'Multi-step input form with validation',
         icon: Icons.stacked_line_chart_rounded,
         destination: const StepperScreen(),
       ),
       _WidgetItem(
-        title: 'Modal Bottom Sheet',
+        title: 'Widget 12 - Modal Bottom Sheet',
         subtitle: 'Shows profile action sheet using showModalBottomSheet',
         icon: Icons.keyboard_arrow_up_rounded,
         destination: const ModalBottomSheetExample(),
       ),
       _WidgetItem(
-        title: 'Animated CrossFade',
+        title: 'Widget 13 - Animated CrossFade',
         subtitle: 'Smooth transition between two widgets',
         icon: Icons.swap_horizontal_circle_outlined,
         destination: const AnimatedCrossFadeExample(),
       ),
       _WidgetItem(
-        title: 'Search Bar',
+        title: 'Widget 14 - Search Bar',
         subtitle: 'Material 3 search bar with list filtering',
         icon: Icons.search,
         destination: const SearchBarExample(),
       ),
-
       _WidgetItem(
-        title: 'SimpleDialog',
+        title: 'Widget 15 - SimpleDialog',
         subtitle: 'Popup dialog with selectable options',
         icon: Icons.chat_bubble_outline,
         destination: SimpleDialogExample(),
       ),
-
-
       _WidgetItem(
-        title: 'Expanded Widget',
+        title: 'Widget 16 - Expanded Widget',
         subtitle: 'Use inside Column or Row for flexible layouts',
         icon: Icons.expand,
         destination: const ExpandedWidgetExample(),
       ),
-
     ];
+
 
     return Scaffold(
       appBar: AppBar(
