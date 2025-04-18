@@ -6,7 +6,7 @@ class ExpandedWidgetExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Expanded Widget')),
+      appBar: AppBar(title: const Text('Expanded Widget'), backgroundColor: Colors.indigo.shade900,),
       body: Column(
         children: [
           Container(height: 100, color: Colors.indigo.shade100),
