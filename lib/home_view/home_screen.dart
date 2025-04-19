@@ -6,6 +6,7 @@
 
 
 import '../constants/screen_path.dart';
+import '../unique_widgets/17_will_pop_scope/will_pop_scope_widget.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -110,6 +111,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.expand,
         destination: const ExpandedWidgetExample(),
       ),
+      _WidgetItem(
+        title: 'Widget 17 - WillPopScope Widget',
+        subtitle: 'Intercept back navigation with custom logic',
+        icon: Icons.exit_to_app,
+        destination: const WillPopScopeExample(),
+      ),
+
     ];
 
 
