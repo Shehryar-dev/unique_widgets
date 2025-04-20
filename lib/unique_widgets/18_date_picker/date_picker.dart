@@ -12,6 +12,7 @@ class _DatePickerExampleState extends State<DatePickerExample> {
 
   Future<void> _pickDate() async {
     final DateTime? picked = await showDatePicker(
+      barrierColor: Colors.indigo.shade900,
       context: context,
       initialDate: selectedDate ?? DateTime.now(),
       firstDate: DateTime(2000),
@@ -28,7 +29,7 @@ class _DatePickerExampleState extends State<DatePickerExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Date Picker Example')),
+      appBar: AppBar(title: const Text('Date Picker Example'), backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -40,6 +41,7 @@ class _DatePickerExampleState extends State<DatePickerExample> {
             ),
             const SizedBox(height: 20),
             ElevatedButton.icon(
+              style: ButtonStyle(backgroundColor:  MaterialStateProperty.all(Colors.indigo.shade900)),
               onPressed: _pickDate,
               icon: const Icon(Icons.date_range),
               label: const Text('Pick a Date'),
