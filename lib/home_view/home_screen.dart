@@ -6,6 +6,7 @@
 
 
 import '../constants/screen_path.dart';
+import '../unique_widgets/18_date_picker/date_picker.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -116,6 +117,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.exit_to_app,
         destination: const WillPopScopeExample(),
       ),
+      _WidgetItem(
+        title: 'Date Picker Widget',
+        subtitle: 'Select a date using Flutter’s built-in picker',
+        icon: Icons.calendar_today,
+        destination: const DatePickerExample(),
+      ),
+
 
     ];
 
