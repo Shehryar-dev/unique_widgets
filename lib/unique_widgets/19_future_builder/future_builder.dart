@@ -11,7 +11,7 @@ class FutureBuilderExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("FutureBuilder Example")),
+      appBar: AppBar(title: const Text("FutureBuilder Example"), backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: FutureBuilder<String>(
           future: fetchUserData(),
