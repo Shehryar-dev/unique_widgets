@@ -5,6 +5,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/19_future_builder/future_builder.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -117,11 +119,18 @@ class HomeScreen extends StatelessWidget {
         destination: const WillPopScopeExample(),
       ),
       _WidgetItem(
-        title: 'Date Picker Widget',
+        title: 'Widget 18 - Date Picker Widget',
         subtitle: 'Select a date using Flutter’s built-in picker',
         icon: Icons.calendar_today,
         destination: const DatePickerExample(),
       ),
+      _WidgetItem(
+        title: 'Widget 19 - FutureBuilder Widget',
+        subtitle: 'Handle and display async data',
+        icon: Icons.hourglass_top_rounded,
+        destination: const FutureBuilderExample(),
+      ),
+
 
 
     ];
