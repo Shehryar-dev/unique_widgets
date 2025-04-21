@@ -5,7 +5,6 @@
 
 
 
-import 'package:unique_widgets/unique_widgets/19_future_builder/future_builder.dart';
 
 import '../constants/screen_path.dart';
 

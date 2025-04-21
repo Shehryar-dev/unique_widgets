@@ -27,6 +27,7 @@ export 'package:unique_widgets/unique_widgets/15_simple_dialog/simple_dialog.dar
 export 'package:unique_widgets/unique_widgets/16_expanded_widget/expanded_widget.dart';
 export '../unique_widgets/17_will_pop_scope/will_pop_scope_widget.dart';
 export '../unique_widgets/18_date_picker/date_picker.dart';
+export 'package:unique_widgets/unique_widgets/19_future_builder/future_builder.dart';
 
 
 
