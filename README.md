@@ -28,6 +28,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **WillPopScope Widget** (Added on: *April 19, 2025*)
 - [x] **Date Picker** (Added on: *April 20, 2025*)
 - [x] **FutureBuilder Widget** (Added on: *April 21, 2025*)
+- [x] **GridPaper Widget** (Added on: *April 22, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
