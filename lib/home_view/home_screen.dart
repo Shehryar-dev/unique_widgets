@@ -1,13 +1,4 @@
 
-
-
-
-
-
-
-
-import 'package:unique_widgets/unique_widgets/20_grid_paper/grid_paper.dart';
-
 import '../constants/screen_path.dart';
 
 
