@@ -6,6 +6,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/20_grid_paper/grid_paper.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -128,6 +130,12 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Handle and display async data',
         icon: Icons.hourglass_top_rounded,
         destination: const FutureBuilderExample(),
+      ),
+      _WidgetItem(
+        title: 'Widget 20 - GridPaper Widget',
+        subtitle: 'Draws a grid for debugging or layout design',
+        icon: Icons.grid_4x4,
+        destination: const GridPaperExample(),
       ),
 
 
