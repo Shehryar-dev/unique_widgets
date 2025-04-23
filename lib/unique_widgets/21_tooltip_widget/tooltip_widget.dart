@@ -8,7 +8,7 @@ class TooltipWidgetExample extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Tooltip Widget Example'),
-        backgroundColor: Colors.indigo,
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Center(
         child: Tooltip(
