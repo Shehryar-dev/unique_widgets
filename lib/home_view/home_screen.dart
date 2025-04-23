@@ -1,4 +1,5 @@
 
+
 import '../constants/screen_path.dart';
 
 
@@ -129,6 +130,12 @@ class HomeScreen extends StatelessWidget {
         destination: const GridPaperExample(),
       ),
 
+      _WidgetItem(
+        title: 'Tooltip Widget',
+        subtitle: 'Shows message on hover or long-press',
+        icon: Icons.info_outline,
+        destination: const TooltipWidgetExample(),
+      ),
 
 
     ];
