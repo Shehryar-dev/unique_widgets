@@ -29,6 +29,7 @@ export '../unique_widgets/17_will_pop_scope/will_pop_scope_widget.dart';
 export '../unique_widgets/18_date_picker/date_picker.dart';
 export 'package:unique_widgets/unique_widgets/19_future_builder/future_builder.dart';
 export 'package:unique_widgets/unique_widgets/20_grid_paper/grid_paper.dart';
+export 'package:unique_widgets/unique_widgets/21_tooltip_widget/tooltip_widget.dart';
 
 
 
