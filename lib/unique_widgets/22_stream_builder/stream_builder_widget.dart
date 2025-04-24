@@ -39,7 +39,7 @@ class _StreamBuilderExampleState extends State<StreamBuilderExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('StreamBuilder Example')),
+      appBar: AppBar(title: const Text('StreamBuilder Example'), backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: StreamBuilder<int>(
           stream: _controller.stream,
