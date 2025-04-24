@@ -1,5 +1,7 @@
 
 
+import 'package:unique_widgets/unique_widgets/22_stream_builder/stream_builder_widget.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -135,6 +137,13 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Shows message on hover or long-press',
         icon: Icons.info_outline,
         destination: const TooltipWidgetExample(),
+      ),
+
+      _WidgetItem(
+        title: 'StreamBuilder Widget',
+        subtitle: 'Updates UI based on stream of data',
+        icon: Icons.stream,
+        destination: const StreamBuilderExample(),
       ),
 
 
