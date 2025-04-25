@@ -1,8 +1,4 @@
-
-
-
 import '../constants/screen_path.dart';
-import '../unique_widgets/23_spacer_widget/spacer_widget.dart';
 
 
 class HomeScreen extends StatelessWidget {
