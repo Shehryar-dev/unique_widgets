@@ -2,6 +2,7 @@
 
 
 import '../constants/screen_path.dart';
+import '../unique_widgets/23_spacer_widget/spacer_widget.dart';
 
 
 class HomeScreen extends StatelessWidget {
@@ -143,6 +144,12 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Updates UI based on stream of data',
         icon: Icons.stream,
         destination: const StreamBuilderExample(),
+      ),
+      _WidgetItem(
+        title: 'Spacer Widget',
+        subtitle: 'Adds flexible spacing between widgets in Row/Column',
+        icon: Icons.space_bar_outlined,
+        destination: const SpacerWidgetExample(),
       ),
 
 
