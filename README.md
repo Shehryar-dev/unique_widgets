@@ -29,8 +29,9 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Date Picker** (Added on: *April 20, 2025*)
 - [x] **FutureBuilder Widget** (Added on: *April 21, 2025*)
 - [x] **GridPaper Widget** (Added on: *April 22, 2025*)
-- [x] ** Tooltip Widget** (Added on: *April 23, 2025*)
-- [x] ** StreamBuilder Widget** (Added on: *April 24, 2025*)
+- [x] **Tooltip Widget** (Added on: *April 23, 2025*)
+- [x] **StreamBuilder Widget** (Added on: *April 24, 2025*)
+- [x] **Spacer Widget** (Added on: *April 25, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
