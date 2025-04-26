@@ -8,6 +8,7 @@ class AdaptiveWidgetExample extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Adaptive Widgets Example'),
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Center(
         child: Column(
