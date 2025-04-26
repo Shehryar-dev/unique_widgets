@@ -148,6 +148,12 @@ class HomeScreen extends StatelessWidget {
         destination: const SpacerWidgetExample(),
       ),
 
+      _WidgetItem(
+        title: 'Best Adaptive Widgets',
+        subtitle: 'Platform-aware widgets (Switch, Progress, Icons)',
+        icon: Icons.devices_other_outlined,
+        destination: const AdaptiveWidgetExample(),
+      ),
 
     ];
 
