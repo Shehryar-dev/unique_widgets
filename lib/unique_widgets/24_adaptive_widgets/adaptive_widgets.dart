@@ -28,7 +28,7 @@ class AdaptiveWidgetExample extends StatelessWidget {
 
             // Adaptive Icon Button
             IconButton(
-              icon: const Icon(Icons.adaptive.arrow_back),
+              icon:  Icon(Icons.adaptive.arrow_back),
               onPressed: () {
                 Navigator.pop(context);
               },
