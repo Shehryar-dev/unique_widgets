@@ -8,12 +8,12 @@ class TableWidgetExample extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Table Widget Example'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Table(
-          border: TableBorder.all(color: Colors.deepPurple),
+          border: TableBorder.all(color: Colors.indigo.shade900),
           columnWidths: const {
             0: FlexColumnWidth(2),
             1: FlexColumnWidth(2),
@@ -31,8 +31,8 @@ class TableWidgetExample extends StatelessWidget {
   }
 
   TableRow _buildTableHeader() {
-    return const TableRow(
-      decoration: BoxDecoration(color: Colors.deepPurpleAccent),
+    return  TableRow(
+      decoration: BoxDecoration(color: Colors.indigo.shade900),
       children: [
         Padding(
           padding: EdgeInsets.all(8.0),
