@@ -154,7 +154,12 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.devices_other_outlined,
         destination: const AdaptiveWidgetExample(),
       ),
-
+      _WidgetItem(
+        title: 'Table Widget',
+        subtitle: 'Organize data in table layout with rows and columns',
+        icon: Icons.table_chart_outlined,
+        destination: const TableWidgetExample(),
+      ),
     ];
 
 
