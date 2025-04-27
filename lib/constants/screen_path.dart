@@ -33,6 +33,8 @@ export 'package:unique_widgets/unique_widgets/21_tooltip_widget/tooltip_widget.d
 export 'package:unique_widgets/unique_widgets/22_stream_builder/stream_builder_widget.dart';
 export '../unique_widgets/23_spacer_widget/spacer_widget.dart';
 export '../unique_widgets/24_adaptive_widgets/adaptive_widgets.dart';
+export 'package:unique_widgets/unique_widgets/25_table_widget/table_widget.dart';
+
 
 
 
