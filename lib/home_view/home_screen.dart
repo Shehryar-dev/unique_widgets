@@ -161,6 +161,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.table_chart_outlined,
         destination: const TableWidgetExample(),
       ),
+      _WidgetItem(
+        title: 'FittedBox Widget',
+        subtitle: 'Scale child widget within available space',
+        icon: Icons.fit_screen_outlined,
+        destination: const FittedBoxExample(),
+      ),
+
     ];
 
 
