@@ -12,7 +12,7 @@ class FittedBoxExample extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          color: Colors.blueAccent,
+          color: Colors.blueAccent.shade400,
           height: 200,
           width: 200,
           child: const FittedBox(
