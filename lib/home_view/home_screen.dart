@@ -1,5 +1,4 @@
 
-import 'package:unique_widgets/unique_widgets/27_stack_widget/stack_widget.dart';
 
 import '../constants/screen_path.dart';
 

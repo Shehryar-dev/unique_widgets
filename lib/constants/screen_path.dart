@@ -35,6 +35,7 @@ export '../unique_widgets/23_spacer_widget/spacer_widget.dart';
 export '../unique_widgets/24_adaptive_widgets/adaptive_widgets.dart';
 export 'package:unique_widgets/unique_widgets/25_table_widget/table_widget.dart';
 export '../unique_widgets/26_fitted_box/26_fitted_box.dart';
+export 'package:unique_widgets/unique_widgets/27_stack_widget/stack_widget.dart';
 
 
 
