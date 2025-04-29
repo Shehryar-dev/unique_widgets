@@ -8,7 +8,7 @@ class StackWidgetExample extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Stack Widget Example'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Center(
         child: Stack(
@@ -17,12 +17,12 @@ class StackWidgetExample extends StatelessWidget {
             Container(
               width: 200,
               height: 200,
-              color: Colors.deepPurple[300],
+              color: Colors.indigo[300],
             ),
             Container(
               width: 150,
               height: 150,
-              color: Colors.deepPurple[500],
+              color: Colors.indigo[500],
             ),
             Positioned(
               bottom: 10,
@@ -32,7 +32,7 @@ class StackWidgetExample extends StatelessWidget {
                 color: Colors.white,
                 child: const Text(
                   'Overlay',
-                  style: TextStyle(color: Colors.deepPurple),
+                  style: TextStyle(color: Colors.indigo),
                 ),
               ),
             ),
