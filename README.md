@@ -34,7 +34,8 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Spacer Widget** (Added on: *April 25, 2025*)
 - [x] **The Best Flutter Adaptive Widgets** (Added on: *April 26, 2025*)
 - [x] **Table Widget** (Added on: *April 27, 2025*) 
-- [x] **FittedBox Widget** (Added on: *April 28, 2025*) 
+- [x] **FittedBox Widget** (Added on: *April 28, 2025*)
+- [x] **Stack Widget** (Added on: *April 29, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
