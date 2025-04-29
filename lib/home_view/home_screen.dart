@@ -1,4 +1,6 @@
 
+import 'package:unique_widgets/unique_widgets/27_stack_widget/stack_widget.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -167,6 +169,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.fit_screen_outlined,
         destination: const FittedBoxExample(),
       ),
+      _WidgetItem(
+        title: 'Stack Widget',
+        subtitle: 'Overlay multiple widgets with alignment and positioning',
+        icon: Icons.layers_outlined,
+        destination: const StackWidgetExample(),
+      ),
+
 
     ];
 
