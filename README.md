@@ -36,6 +36,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Table Widget** (Added on: *April 27, 2025*) 
 - [x] **FittedBox Widget** (Added on: *April 28, 2025*)
 - [x] **Stack Widget** (Added on: *April 29, 2025*)
+- [x] **Positioned Widget** (Added on: *April 30, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
