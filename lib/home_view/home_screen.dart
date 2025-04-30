@@ -1,5 +1,6 @@
 
 
+
 import '../constants/screen_path.dart';
 
 
@@ -174,7 +175,12 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.layers_outlined,
         destination: const StackWidgetExample(),
       ),
-
+      _WidgetItem(
+        title: 'Positioned Widget',
+        subtitle: 'Animate child inside a Stack',
+        icon: Icons.place,
+        destination: const PositionedWidget(),
+      ),
 
     ];
 
