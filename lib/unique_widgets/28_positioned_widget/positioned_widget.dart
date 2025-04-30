@@ -25,7 +25,7 @@ class _PositionedWidgetState extends State<PositionedWidget> {
               width: 300,
               height: 300,
               decoration: BoxDecoration(
-                color: Colors.deepPurple[50],
+                color: Colors.indigo[50],
                 borderRadius: BorderRadius.circular(20),
               ),
             ),
@@ -42,8 +42,8 @@ class _PositionedWidgetState extends State<PositionedWidget> {
                 child: Container(
                   width: 60,
                   height: 60,
-                  decoration: const BoxDecoration(
-                    color: Colors.deepPurple,
+                  decoration:  BoxDecoration(
+                    color: Colors.indigo.shade900,
                     shape: BoxShape.circle,
                   ),
                   child: const Icon(Icons.play_arrow, color: Colors.white),
