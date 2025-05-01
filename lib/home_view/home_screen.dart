@@ -1,7 +1,3 @@
-
-
-
-
 import '../constants/screen_path.dart';
 
 
