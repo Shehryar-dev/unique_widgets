@@ -181,6 +181,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.place,
         destination: const PositionedWidget(),
       ),
+      _WidgetItem(
+        title: 'Visibility Widget',
+        subtitle: 'Show or hide a widget with ease',
+        icon: Icons.visibility,
+        destination: const VisibilityWidgetExample(),
+      ),
+
 
     ];
 
