@@ -15,7 +15,8 @@ class _VisibilityWidgetExampleState extends State<VisibilityWidgetExample> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Visibility Widget Example'),
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.indigo.shade900,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -24,7 +25,7 @@ class _VisibilityWidgetExampleState extends State<VisibilityWidgetExample> {
             SwitchListTile(
               title: const Text('Show/Hide Card'),
               value: _isVisible,
-              activeColor: Colors.teal,
+              activeColor: Colors.indigo,
               onChanged: (value) {
                 setState(() {
                   _isVisible = value;
@@ -40,7 +41,7 @@ class _VisibilityWidgetExampleState extends State<VisibilityWidgetExample> {
               ),
               child: Card(
                 elevation: 6,
-                color: Colors.tealAccent,
+                color: Colors.indigoAccent,
                 shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
                 child: const Padding(
                   padding: EdgeInsets.all(24.0),
