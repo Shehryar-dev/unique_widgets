@@ -23,8 +23,9 @@ class SpreadOperatorWidget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Spread Operator Example'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo.shade900,
         centerTitle: true,
+        iconTheme: IconThemeData(color: Colors.white),
       ),
       body: ListView(
         padding: const EdgeInsets.all(8.0),
