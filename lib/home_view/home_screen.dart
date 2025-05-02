@@ -184,6 +184,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.visibility,
         destination: const VisibilityWidgetExample(),
       ),
+      _WidgetItem(
+        title: 'Spread Operator',
+        subtitle: 'Dynamically insert widget lists using `...`',
+        icon: Icons.view_array,
+        destination: const SpreadOperatorWidget(),
+      ),
+
 
 
     ];
