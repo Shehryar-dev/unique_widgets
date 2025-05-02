@@ -38,6 +38,7 @@ export '../unique_widgets/26_fitted_box/26_fitted_box.dart';
 export 'package:unique_widgets/unique_widgets/27_stack_widget/stack_widget.dart';
 export 'package:unique_widgets/unique_widgets/28_positioned_widget/positioned_widget.dart';
 export 'package:unique_widgets/unique_widgets/29_visibility_widget/visibility_widget.dart';
+export 'package:unique_widgets/unique_widgets/30_spread_operator_use/spread_operator.dart';
 
 
 
