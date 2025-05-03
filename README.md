@@ -39,6 +39,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Positioned Widget** (Added on: *April 30, 2025*)
 - [x] **Positioned Widget** (Added on: *May 1, 2025*)
 - [x] **Spread Operator Use** (Added on: *May 2, 2025*)
+- [x] **Alert Dialog** (Added on: *May 3, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
