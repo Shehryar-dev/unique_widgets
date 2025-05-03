@@ -1,4 +1,6 @@
 
+import 'package:unique_widgets/unique_widgets/31_alert_dialog_widget/alert_dialog.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -190,6 +192,12 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Dynamically insert widget lists using `...`',
         icon: Icons.view_array,
         destination: const SpreadOperatorWidget(),
+      ),
+      _WidgetItem(
+        title: 'AlertDialog Widget',
+        subtitle: 'Custom confirmation popup with actions',
+        icon: Icons.warning_amber,
+        destination: const AlertDialogWidget(),
       ),
 
 

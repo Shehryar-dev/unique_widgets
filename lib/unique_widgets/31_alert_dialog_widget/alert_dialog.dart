@@ -45,7 +45,7 @@ class AlertDialogWidget extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('AlertDialog Widget'),
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Center(
         child: ElevatedButton.icon(
