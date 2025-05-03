@@ -1,5 +1,4 @@
 
-import 'package:unique_widgets/unique_widgets/31_alert_dialog_widget/alert_dialog.dart';
 
 import '../constants/screen_path.dart';
 
