@@ -8,8 +8,8 @@ class SelectableTextExample extends StatelessWidget {
     return Scaffold(
       backgroundColor: const Color(0xFFF8F9FA),
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
-        title: const Text('Flutter Article Reader'),
+        backgroundColor: Colors.indigo.shade900,
+        title: const Text('Flutter Article Reader', style: TextStyle(color: Colors.white),),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
