@@ -1,5 +1,7 @@
 
 
+import 'package:unique_widgets/unique_widgets/32_selectable_text/selectable_text.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -198,7 +200,12 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.warning_amber,
         destination: const AlertDialogWidget(),
       ),
-
+      _WidgetItem(
+        title: 'SelectableText',
+        subtitle: 'Selectable and copyable text for rich interaction',
+        icon: Icons.text_fields,
+        destination: const SelectableTextExample(),
+      )
 
 
     ];
