@@ -1,6 +1,5 @@
 
 
-import 'package:unique_widgets/unique_widgets/32_selectable_text/selectable_text.dart';
 
 import '../constants/screen_path.dart';
 
