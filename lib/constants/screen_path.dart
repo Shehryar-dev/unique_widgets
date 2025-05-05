@@ -41,6 +41,7 @@ export 'package:unique_widgets/unique_widgets/29_visibility_widget/visibility_wi
 export 'package:unique_widgets/unique_widgets/30_spread_operator_use/spread_operator.dart';
 export 'package:unique_widgets/unique_widgets/31_alert_dialog_widget/alert_dialog.dart';
 export 'package:unique_widgets/unique_widgets/32_selectable_text/selectable_text.dart';
+export 'package:unique_widgets/unique_widgets/33_gesture_detector/gesture_detector.dart';
 
 
 

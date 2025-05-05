@@ -1,7 +1,6 @@
 
 
 
-import 'package:unique_widgets/unique_widgets/33_gesture_detector/gesture_detector.dart';
 
 import '../constants/screen_path.dart';
 
