@@ -1,6 +1,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/33_gesture_detector/gesture_detector.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -204,7 +206,13 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Selectable and copyable text for rich interaction',
         icon: Icons.text_fields,
         destination: const SelectableTextExample(),
-      )
+      ),
+      _WidgetItem(
+        title: 'GestureDetector',
+        subtitle: 'Detect taps, swipes, long presses and more',
+        icon: Icons.gesture,
+        destination: const GestureDetectorExample(),
+      ),
 
 
     ];
