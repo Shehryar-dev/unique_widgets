@@ -21,8 +21,8 @@ class _GestureDetectorExampleState extends State<GestureDetectorExample> {
     return Scaffold(
       backgroundColor: const Color(0xFFF3F4F6),
       appBar: AppBar(
-        backgroundColor: Colors.teal,
-        title: const Text('GestureDetector Example'),
+        backgroundColor: Colors.indigo.shade900,
+        title: const Text('GestureDetector Example',),
       ),
       body: Center(
         child: Column(
@@ -52,9 +52,9 @@ class _GestureDetectorExampleState extends State<GestureDetectorExample> {
             Text(
               message,
               textAlign: TextAlign.center,
-              style: const TextStyle(
+              style:  TextStyle(
                 fontSize: 16,
-                color: Colors.teal,
+                color: Colors.indigo.shade900,
                 fontWeight: FontWeight.w500,
               ),
             ),
