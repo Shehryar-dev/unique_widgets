@@ -2,6 +2,7 @@
 
 
 
+
 import '../constants/screen_path.dart';
 
 
@@ -212,6 +213,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.gesture,
         destination: const GestureDetectorExample(),
       ),
+      _WidgetItem(
+        title: 'InteractiveViewer',
+        subtitle: 'Enable zooming and panning for any widget',
+        icon: Icons.zoom_in_map_rounded,
+        destination: const InteractiveViewerExample(),
+      ),
+
 
 
     ];
