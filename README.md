@@ -42,6 +42,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Alert Dialog** (Added on: *May 3, 2025*)
 - [x] **Selectable Text** (Added on: *May 4, 2025*)
 - [x] **Gesture Detector Widget** (Added on: *May 5, 2025*)
+- [x] **Zoomable Info Card Grid Widget** (Added on: *May 6, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?

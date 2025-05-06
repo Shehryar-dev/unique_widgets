@@ -6,7 +6,7 @@ class InteractiveViewerExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('🔍 Interactive Viewer')),
+      appBar: AppBar(title: const Text('🔍 Interactive Viewer'), backgroundColor: Colors.indigo.shade900,),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: InteractiveViewer(
