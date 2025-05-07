@@ -215,6 +215,13 @@ class HomeScreen extends StatelessWidget {
         destination: const InteractiveViewerExample(),
       ),
 
+      _WidgetItem(
+        title: 'Flexible',
+        subtitle: 'Make child widgets adapt to available space',
+        icon: Icons.view_week,
+        destination: const FlexibleExample(),
+      ),
+
 
 
     ];
