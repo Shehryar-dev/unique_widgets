@@ -43,6 +43,7 @@ export 'package:unique_widgets/unique_widgets/31_alert_dialog_widget/alert_dialo
 export 'package:unique_widgets/unique_widgets/32_selectable_text/selectable_text.dart';
 export 'package:unique_widgets/unique_widgets/33_gesture_detector/gesture_detector.dart';
 export 'package:unique_widgets/unique_widgets/34_intractive_viewer/intractive_viewer.dart';
+export 'package:unique_widgets/unique_widgets/35_flexible_widget/flexible_widget.dart';
 
 
 
