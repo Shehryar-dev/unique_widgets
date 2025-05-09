@@ -1,5 +1,7 @@
 
 
+import 'package:unique_widgets/unique_widgets/37_cliprect_widget/cliprect_widget.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -230,6 +232,14 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.crop_rounded,
         destination: const ClipRRectExample(),
       ),
+
+      _WidgetItem(
+        title: 'ClipRect',
+        subtitle: 'Clip widgets to a rectangular portion',
+        icon: Icons.crop_square,
+        destination: const ClipRectExample(),
+      ),
+
 
 
     ];
