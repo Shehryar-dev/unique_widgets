@@ -45,6 +45,7 @@ export 'package:unique_widgets/unique_widgets/33_gesture_detector/gesture_detect
 export 'package:unique_widgets/unique_widgets/34_intractive_viewer/intractive_viewer.dart';
 export 'package:unique_widgets/unique_widgets/35_flexible_widget/flexible_widget.dart';
 export 'package:unique_widgets/unique_widgets/36_cliprrect_widget/cliprrect_widget.dart';
+export 'package:unique_widgets/unique_widgets/37_cliprect_widget/cliprect_widget.dart';
 
 
 

@@ -1,6 +1,5 @@
 
 
-import 'package:unique_widgets/unique_widgets/37_cliprect_widget/cliprect_widget.dart';
 
 import '../constants/screen_path.dart';
 
