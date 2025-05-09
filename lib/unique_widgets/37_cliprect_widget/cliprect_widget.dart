@@ -6,7 +6,7 @@ class ClipRectExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('🧩 ClipRect Example')),
+      appBar: AppBar(title: const Text('🧩 ClipRect Example'), backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: Stack(
           alignment: Alignment.center,
