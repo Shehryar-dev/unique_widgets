@@ -10,6 +10,7 @@ class TabBarExample extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: const Text('✨ TabBar Example'),
+          backgroundColor: Colors.indigo.shade900,
           bottom: const TabBar(
             tabs: [
               Tab(icon: Icon(Icons.home), text: 'Home'),
