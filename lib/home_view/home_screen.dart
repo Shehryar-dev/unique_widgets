@@ -1,7 +1,6 @@
 
 
 
-import 'package:unique_widgets/unique_widgets/38_tabbar_example/tabbar_widget.dart';
 
 import '../constants/screen_path.dart';
 
