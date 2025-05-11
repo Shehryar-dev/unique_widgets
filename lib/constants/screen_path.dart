@@ -47,6 +47,7 @@ export 'package:unique_widgets/unique_widgets/35_flexible_widget/flexible_widget
 export 'package:unique_widgets/unique_widgets/36_cliprrect_widget/cliprrect_widget.dart';
 export 'package:unique_widgets/unique_widgets/37_cliprect_widget/cliprect_widget.dart';
 export 'package:unique_widgets/unique_widgets/38_tabbar_example/tabbar_widget.dart';
+export 'package:unique_widgets/unique_widgets/39_dropdown_btn/dropdown.dart';
 
 
 

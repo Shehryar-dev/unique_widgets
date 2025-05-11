@@ -1,9 +1,3 @@
-
-
-
-
-import 'package:unique_widgets/unique_widgets/39_dropdown_btn/dropdown.dart';
-
 import '../constants/screen_path.dart';
 
 
