@@ -2,6 +2,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/39_dropdown_btn/dropdown.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -245,6 +247,14 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.tab,
         destination: const TabBarExample(),
       ),
+
+      _WidgetItem(
+        title: 'DropdownButton',
+        subtitle: 'Shows a list of items to select one option',
+        icon: Icons.arrow_drop_down_circle_outlined,
+        destination: const DropdownExample(),
+      ),
+
 
 
     ];
