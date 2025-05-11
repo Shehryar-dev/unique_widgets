@@ -21,7 +21,7 @@ class _DropdownExampleState extends State<DropdownExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('💡 Dropdown Example')),
+      appBar: AppBar(title: const Text('💡 Dropdown Example'),backgroundColor: Colors.indigo.shade900,),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Card(
