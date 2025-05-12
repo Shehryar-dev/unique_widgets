@@ -26,7 +26,7 @@ class _FormExampleState extends State<FormExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("📝 Form Example")),
+      appBar: AppBar(title: const Text("📝 Form Example"), backgroundColor: Colors.indigo.shade900,),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Form(
