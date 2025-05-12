@@ -1,3 +1,5 @@
+import 'package:unique_widgets/unique_widgets/40_Form/form_textfield.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -249,6 +251,12 @@ class HomeScreen extends StatelessWidget {
         destination: const DropdownExample(),
       ),
 
+      _WidgetItem(
+        title: 'Form & TextFormField',
+        subtitle: 'Form with validation using TextFormFields',
+        icon: Icons.text_fields,
+        destination: const FormExample(),
+      ),
 
 
     ];
