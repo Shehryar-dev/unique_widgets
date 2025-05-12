@@ -84,6 +84,7 @@ class _FormExampleState extends State<FormExample> {
                     icon: const Icon(Icons.send),
                     label: const Text('Submit'),
                     style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.indigo.shade900,
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                       minimumSize: const Size.fromHeight(50),
                     ),
