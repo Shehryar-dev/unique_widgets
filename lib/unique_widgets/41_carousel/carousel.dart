@@ -7,10 +7,14 @@ class CarouselWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final List<String> imageList = [
-      'https://picsum.photos/id/1015/600/300',
-      'https://picsum.photos/id/1016/600/300',
-      'https://picsum.photos/id/1018/600/300',
-      'https://picsum.photos/id/1020/600/300',
+      'assets/images/banners/banner_1.jpg',
+      'assets/images/banners/banner_2.jpg',
+      'assets/images/banners/banner_3.jpg',
+      'assets/images/banners/banner_4.jpg',
+      'assets/images/banners/banner_5.jpg',
+      'assets/images/banners/banner_6.jpg',
+      'assets/images/banners/banner_7.jpg',
+      'assets/images/banners/banner_8.jpg',
     ];
 
     return Scaffold(
@@ -37,7 +41,7 @@ class CarouselWidget extends StatelessWidget {
               child: Stack(
                 fit: StackFit.expand,
                 children: [
-                  Image.network(item, fit: BoxFit.cover),
+                  Image.asset(item, fit: BoxFit.cover),
                   Container(
                     decoration: BoxDecoration(
                       gradient: LinearGradient(
