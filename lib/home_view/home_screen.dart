@@ -257,6 +257,14 @@ class HomeScreen extends StatelessWidget {
         destination: const FormExample(),
       ),
 
+      _WidgetItem(
+        title: 'Carousel Slider',
+        subtitle: 'Image/content sliders with smooth animations',
+        icon: Icons.slideshow,
+        destination: const CarouselWidget(),
+      ),
+
+
 
     ];
 
