@@ -1,5 +1,7 @@
 
 
+import 'package:unique_widgets/unique_widgets/42_products_card/product_card.dart';
+
 import '../constants/screen_path.dart';
 
 
