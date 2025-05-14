@@ -1,5 +1,6 @@
 
 import '../../constants/screen_path.dart';
+import 'card_widget.dart';
 
 class ProductCardExample extends StatelessWidget {
   const ProductCardExample({super.key});
