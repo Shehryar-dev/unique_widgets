@@ -266,6 +266,15 @@ class HomeScreen extends StatelessWidget {
       ),
 
 
+      _WidgetItem(
+        title: 'Product Card',
+        subtitle: 'Image, Price & Favorite icon in a beautiful card',
+        icon: Icons.shopping_bag,
+        destination: const ProductCardExample(),
+      ),
+
+
+
 
     ];
 
