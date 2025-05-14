@@ -37,6 +37,7 @@ dependencies:
   device_preview: ^1.2.0
   lottie: ^3.3.1
   carousel_slider: ^5.0.0
+  awesome_snackbar_content: ^0.1.6
 dev_dependencies:
   flutter_test:
     sdk: flutter

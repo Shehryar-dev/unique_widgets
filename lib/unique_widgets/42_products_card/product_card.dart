@@ -13,7 +13,7 @@ class ProductCardExample extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: ProductCard(
           title: 'AirPods Pro 2',
-          imageUrl: 'https://images.unsplash.com/photo-1606813902475-51f6b8e6497f',
+          imageUrl: 'assets/images/food.png',
           price: 249.99,
           isFavorite: true,
         ),
