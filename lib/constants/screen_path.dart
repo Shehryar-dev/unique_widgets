@@ -50,6 +50,8 @@ export 'package:unique_widgets/unique_widgets/38_tabbar_example/tabbar_widget.da
 export 'package:unique_widgets/unique_widgets/39_dropdown_btn/dropdown.dart';
 export 'package:unique_widgets/unique_widgets/40_Form/form_textfield.dart';
 export 'package:unique_widgets/unique_widgets/41_carousel/carousel.dart';
+export 'package:unique_widgets/unique_widgets/42_products_card/product_card.dart';
+
 
 
 
