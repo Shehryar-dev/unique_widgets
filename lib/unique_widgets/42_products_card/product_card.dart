@@ -12,7 +12,7 @@ class ProductCardExample extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ProductCard(
-          title: 'Zinger Burger sola',
+          title: 'Zinger Burger',
           imageUrl: 'assets/images/food.png',
           price: 249.99,
           isFavorite: true,
