@@ -12,7 +12,7 @@ class ProductCardExample extends StatelessWidget {
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: ProductCard(
-          title: 'AirPods Pro 2',
+          title: 'Zinger Burger sola',
           imageUrl: 'assets/images/food.png',
           price: 249.99,
           isFavorite: true,
