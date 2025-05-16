@@ -10,6 +10,7 @@ class BreadcrumbsExample extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('🧭 Breadcrumb Navigation'),
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
