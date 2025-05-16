@@ -51,6 +51,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Form & FormFields Example** (Added on: *May 12, 2025*)
 - [x] **Carousel Example** (Added on: *May 13, 2025*)
 - [x] **Product Card Example** (Added on: *May 14, 2025*)
+- [x] **Breadcrumbs Example** (Added on: *May 16, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
