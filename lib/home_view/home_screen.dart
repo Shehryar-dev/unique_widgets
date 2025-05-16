@@ -1,6 +1,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/43_breadcrumbs/breadcrumbs.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -273,6 +275,13 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.shopping_bag,
         destination: const ProductCardExample(),
       ),
+      _WidgetItem(
+        title: 'Breadcrumbs (Custom)',
+        subtitle: 'Navigate with path hierarchy',
+        icon: Icons.route,
+        destination: const BreadcrumbsExample(),
+      ),
+
 
 
 
