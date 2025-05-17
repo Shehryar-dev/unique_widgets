@@ -2,6 +2,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/44_drawer/drawer.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -281,6 +283,12 @@ class HomeScreen extends StatelessWidget {
         destination: const BreadcrumbsExample(),
       ),
 
+      _WidgetItem(
+        title: 'Drawer Widget',
+        subtitle: 'Real-world app navigation drawer',
+        icon: Icons.menu,
+        destination: const DrawerExample(),
+      ),
 
 
 
