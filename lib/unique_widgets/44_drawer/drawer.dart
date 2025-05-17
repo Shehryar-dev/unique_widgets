@@ -6,7 +6,7 @@ class DrawerExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('🏠 Home with Drawer')),
+      appBar: AppBar(title: const Text('🏠 Home with Drawer'),backgroundColor: Colors.indigo.shade900,),
       drawer: const AppDrawer(),
       body: const Center(child: Text('Welcome to Home Page')),
     );
@@ -24,11 +24,11 @@ class AppDrawer extends StatelessWidget {
         children: [
           UserAccountsDrawerHeader(
             accountName: const Text('Shehryar Saleem'),
-            accountEmail: const Text('shehryar@example.com'),
+            accountEmail: const Text('shehryar@gmail.com'),
             currentAccountPicture: const CircleAvatar(
-              backgroundImage: NetworkImage('https://i.pravatar.cc/150?img=3'),
+              backgroundImage: AssetImage('assets/images/profile.jpg'),
             ),
-            decoration: const BoxDecoration(color: Colors.blueAccent),
+            decoration:  BoxDecoration(color: Colors.indigo.shade900),
           ),
           ListTile(
             leading: const Icon(Icons.home),
