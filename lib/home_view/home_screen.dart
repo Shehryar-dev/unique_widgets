@@ -3,6 +3,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/45_pagination_example/pagination_example.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -288,6 +290,14 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.menu,
         destination: const DrawerExample(),
       ),
+
+      _WidgetItem(
+        title: 'Pagination Widget',
+        subtitle: 'Paginated ListView with controls',
+        icon: Icons.format_list_numbered,
+        destination: const PaginationExample(),
+      ),
+
 
 
 
