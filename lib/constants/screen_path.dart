@@ -53,6 +53,7 @@ export 'package:unique_widgets/unique_widgets/41_carousel/carousel.dart';
 export 'package:unique_widgets/unique_widgets/42_products_card/product_card.dart';
 export 'package:unique_widgets/unique_widgets/43_breadcrumbs/breadcrumbs.dart';
 export 'package:unique_widgets/unique_widgets/44_drawer/drawer.dart';
+export 'package:unique_widgets/unique_widgets/45_pagination_example/pagination_example.dart';
 
 
 

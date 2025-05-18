@@ -3,7 +3,6 @@
 
 
 
-import 'package:unique_widgets/unique_widgets/45_pagination_example/pagination_example.dart';
 
 import '../constants/screen_path.dart';
 
