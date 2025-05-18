@@ -9,7 +9,7 @@ class PaginationExample extends StatefulWidget {
 
 class _PaginationExampleState extends State<PaginationExample> {
   int currentPage = 1;
-  final int itemsPerPage = 5;
+  final int itemsPerPage = 4;
 
   List<String> allItems = List.generate(50, (index) => 'Item ${index + 1}');
 

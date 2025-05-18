@@ -53,6 +53,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Product Card Example** (Added on: *May 14, 2025*)
 - [x] **Breadcrumbs Example** (Added on: *May 16, 2025*)
 - [x] **Drawer Example** (Added on: *May 17, 2025*)
+- [x] **Pagination Example** (Added on: *May 18, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
