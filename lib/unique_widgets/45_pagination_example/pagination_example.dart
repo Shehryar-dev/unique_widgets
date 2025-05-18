@@ -24,7 +24,7 @@ class _PaginationExampleState extends State<PaginationExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('📄 Paginated ListView')),
+      appBar: AppBar(title: const Text('📄 Paginated ListView'), backgroundColor: Colors.indigo.shade900,),
       body: SafeArea(
         child: Column(
           children: [
