@@ -20,7 +20,7 @@ class AutocompleteExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('🧠 Autocomplete Example')),
+      appBar: AppBar(title: const Text('🧠 Autocomplete Example'), backgroundColor: Colors.indigo.shade900,),
       body: Padding(
         padding: const EdgeInsets.all(20),
         child: Column(

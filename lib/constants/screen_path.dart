@@ -54,7 +54,6 @@ export 'package:unique_widgets/unique_widgets/42_products_card/product_card.dart
 export 'package:unique_widgets/unique_widgets/43_breadcrumbs/breadcrumbs.dart';
 export 'package:unique_widgets/unique_widgets/44_drawer/drawer.dart';
 export 'package:unique_widgets/unique_widgets/45_pagination_example/pagination_example.dart';
-
 export 'package:unique_widgets/unique_widgets/46_autocomplete_widget/auto_complete.dart';
 
 
