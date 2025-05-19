@@ -1,12 +1,4 @@
-
-
-
-
-
-
-
 import '../constants/screen_path.dart';
-
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
