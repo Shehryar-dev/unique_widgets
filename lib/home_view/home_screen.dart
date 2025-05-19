@@ -4,7 +4,6 @@
 
 
 
-import 'package:unique_widgets/unique_widgets/46_autocomplete_widget/auto_complete.dart';
 
 import '../constants/screen_path.dart';
 
