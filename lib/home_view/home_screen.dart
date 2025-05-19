@@ -4,6 +4,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/46_autocomplete_widget/auto_complete.dart';
+
 import '../constants/screen_path.dart';
 
 
@@ -298,6 +300,12 @@ class HomeScreen extends StatelessWidget {
       ),
 
 
+      _WidgetItem(
+        title: 'autocomplete',
+        subtitle: 'Suggest list while typing with full customization.',
+        icon: Icons.text_fields,
+        destination: const AutocompleteExample(),
+      ),
 
 
 
