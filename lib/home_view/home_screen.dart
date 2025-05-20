@@ -298,6 +298,14 @@ class HomeScreen extends StatelessWidget {
         destination: const AutocompleteExample(),
       ),
 
+      _WidgetItem(
+        title: 'draggable',
+        subtitle: 'Interactive drag & drop with feedback + target',
+        icon: Icons.drag_handle,
+        destination: const DraggableExample(),
+      ),
+
+
 
 
     ];
