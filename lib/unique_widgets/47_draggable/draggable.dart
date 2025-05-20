@@ -13,7 +13,7 @@ class _DraggableExampleState extends State<DraggableExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('🎯 Draggable Example')),
+      appBar: AppBar(title: const Text('🎯 Draggable Example'), backgroundColor: Colors.indigo.shade900,),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
