@@ -56,6 +56,8 @@ export 'package:unique_widgets/unique_widgets/44_drawer/drawer.dart';
 export 'package:unique_widgets/unique_widgets/45_pagination_example/pagination_example.dart';
 export 'package:unique_widgets/unique_widgets/46_autocomplete_widget/auto_complete.dart';
 export '../unique_widgets/47_draggable/draggable.dart';
+export 'package:unique_widgets/unique_widgets/48_aspect_ratio/aspect_ratio.dart';
+
 
 
 
