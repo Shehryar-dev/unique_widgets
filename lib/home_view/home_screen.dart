@@ -305,6 +305,15 @@ class HomeScreen extends StatelessWidget {
         destination: const DraggableExample(),
       ),
 
+      _WidgetItem(
+        title: 'aspectratio',
+        subtitle: 'Maintains consistent width & height ratio (e.g., 16:9)',
+        icon: Icons.aspect_ratio,
+        destination: const AspectRatioExample(),
+      ),
+
+
+
 
 
 
