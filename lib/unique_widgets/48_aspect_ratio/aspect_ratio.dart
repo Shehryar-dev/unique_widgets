@@ -6,7 +6,7 @@ class AspectRatioExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('📐 AspectRatio Example')),
+      appBar: AppBar(title: const Text('📐 AspectRatio Example'), backgroundColor: Colors.indigo.shade900,),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Column(
