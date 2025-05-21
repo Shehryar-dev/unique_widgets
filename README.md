@@ -55,7 +55,8 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **Drawer Example** (Added on: *May 17, 2025*)
 - [x] **Pagination Example** (Added on: *May 18, 2025*)
 - [x] **AutoComplete Example** (Added on: *May 19, 2025*)
-- [x] **Draggable & DragTarget Example** (Added on: *May 20, 2025*)  
+- [x] **Draggable & DragTarget Example** (Added on: *May 20, 2025*)
+- [x] **Aspect Ratio Example** (Added on: *May 21, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
