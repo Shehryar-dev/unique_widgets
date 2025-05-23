@@ -22,13 +22,19 @@ class GridTileExample extends StatelessWidget {
       "price": "\$89",
       "image": "https://media4.giphy.com/media/1gbqIc1fK8QgR3bHL7/giphy.gif?cid=790b7611a2f696d51a46ce892e420e77735707466a4abd3b&rid=giphy.gif&ct=g"
     },
+    {
+      "title": "Bored ape nft accidental",
+      "price": "\$89",
+      "image": "https://cdn.vox-cdn.com/thumbor/ZkmdkuJUTLgJh96_FWQ5zweGGxo=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/23084330/bored_ape_nft_accidental_.jpg"
+    },
+
 
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Product Grid")),
+      appBar: AppBar(title: const Text("Product Grid"), backgroundColor: Colors.indigo.shade900,),
       body: Padding(
         padding: const EdgeInsets.all(12),
         child: GridView.builder(
