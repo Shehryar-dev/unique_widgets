@@ -1,4 +1,6 @@
 
+import 'package:unique_widgets/unique_widgets/49_grid_tile_and_grid_tile_bar/grid_tile_and_grid_tile_bar.dart';
+
 import '../constants/screen_path.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -311,6 +313,13 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Maintains consistent width & height ratio (e.g., 16:9)',
         icon: Icons.aspect_ratio,
         destination: const AspectRatioExample(),
+      ),
+
+      _WidgetItem(
+        title: 'GridTile & GridTileBar',
+        subtitle: 'Create overlay titles and icons for GridView tiles',
+        icon: Icons.grid_on,
+        destination:  GridTileExample(),
       ),
 
 
