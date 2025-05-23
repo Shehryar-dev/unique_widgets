@@ -17,6 +17,12 @@ class GridTileExample extends StatelessWidget {
       "price": "\$89",
       "image": "https://i.imgur.com/ODkQn6B.png"
     },
+    {
+      "title": "Bored ape nft accidental",
+      "price": "\$89",
+      "image": "https://media4.giphy.com/media/1gbqIc1fK8QgR3bHL7/giphy.gif?cid=790b7611a2f696d51a46ce892e420e77735707466a4abd3b&rid=giphy.gif&ct=g"
+    },
+
   ];
 
   @override
