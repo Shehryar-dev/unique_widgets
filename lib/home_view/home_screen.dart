@@ -1,6 +1,5 @@
 
 
-import 'package:unique_widgets/unique_widgets/50_animated_widget_p1/animated_widget_p1.dart';
 
 import '../constants/screen_path.dart';
 

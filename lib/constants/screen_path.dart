@@ -58,6 +58,7 @@ export 'package:unique_widgets/unique_widgets/46_autocomplete_widget/auto_comple
 export '../unique_widgets/47_draggable/draggable.dart';
 export 'package:unique_widgets/unique_widgets/48_aspect_ratio/aspect_ratio.dart';
 export 'package:unique_widgets/unique_widgets/49_grid_tile_and_grid_tile_bar/grid_tile_and_grid_tile_bar.dart';
+export 'package:unique_widgets/unique_widgets/50_animated_widget_p1/animated_widget_p1.dart';
 
 
 
