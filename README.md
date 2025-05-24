@@ -57,7 +57,8 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **AutoComplete Example** (Added on: *May 19, 2025*)
 - [x] **Draggable & DragTarget Example** (Added on: *May 20, 2025*)
 - [x] **Aspect Ratio Example** (Added on: *May 21, 2025*)
-- [x] **GridTile and GridTileBar Example** (Added on: *May 23, 2025*)
+- [x] **GridTile & GridTileBar Example** (Added on: *May 23, 2025*)
+- [x] **AnimatedContainer & AnimatedCrossFade Example** (Added on: *May 24, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
