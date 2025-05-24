@@ -14,7 +14,7 @@ class _AnimatedWidgetExampleState extends State<AnimatedWidgetExample> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("AnimatedContainer & CrossFade")),
+      appBar: AppBar(title: const Text("AnimatedContainer & CrossFade"), backgroundColor: Colors.indigo.shade900, ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -41,6 +41,7 @@ class _AnimatedWidgetExampleState extends State<AnimatedWidgetExample> {
             ),
             const SizedBox(height: 30),
             ElevatedButton.icon(
+              style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Colors.indigo.shade900)),
               onPressed: () => setState(() => showFirst = !showFirst),
               icon: const Icon(Icons.flip),
               label: const Text("Toggle View"),
