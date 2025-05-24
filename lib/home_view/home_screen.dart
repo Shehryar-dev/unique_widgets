@@ -1,5 +1,7 @@
 
 
+import 'package:unique_widgets/unique_widgets/50_animated_widget_p1/animated_widget_p1.dart';
+
 import '../constants/screen_path.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -320,6 +322,14 @@ class HomeScreen extends StatelessWidget {
         icon: Icons.grid_on,
         destination:  GridTileExample(),
       ),
+
+      _WidgetItem(
+        title: 'AnimatedContainer & CrossFade',
+        subtitle: 'Smooth transitions & fading between widgets',
+        icon: Icons.animation_outlined,
+        destination: const AnimatedWidgetExample(),
+      ),
+
 
 
 
