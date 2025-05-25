@@ -1,6 +1,8 @@
 
 
 
+import 'package:unique_widgets/unique_widgets/51_animated_widget_p2/animated_widget_p2.dart';
+
 import '../constants/screen_path.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -329,6 +331,12 @@ class HomeScreen extends StatelessWidget {
         destination: const AnimatedWidgetExample(),
       ),
 
+      _WidgetItem(
+        title: 'AnimatedDefaultTextStyle & AnimatedIcon',
+        subtitle: 'Smooth text & icon transitions with style',
+        icon: Icons.text_fields_outlined,
+        destination: const AnimatedTextIconExample(),
+      ),
 
 
 
