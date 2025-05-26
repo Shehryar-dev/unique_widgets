@@ -36,7 +36,7 @@ class _AnimatedTextIconExampleState extends State<AnimatedTextIconExample> with 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Animated Text & Icon")),
+      appBar: AppBar(title: const Text("Animated Text & Icon"), backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
