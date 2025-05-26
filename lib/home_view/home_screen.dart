@@ -337,6 +337,13 @@ class HomeScreen extends StatelessWidget {
         destination: const AnimatedTextIconExample(),
       ),
 
+      _WidgetItem(
+        title: 'AnimatedDefaultTextStyle & AnimatedIcon',
+        subtitle: 'Smooth text & icon transitions with style',
+        icon: Icons.text_fields_outlined,
+        destination: const AnimatedTextIconExample(),
+      ),
+
 
 
 
