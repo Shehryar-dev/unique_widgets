@@ -21,7 +21,7 @@ class _AnimatedOpacityRotationExampleState extends State<AnimatedOpacityRotation
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Opacity & Rotation Animation")),
+      appBar: AppBar(title: const Text("Opacity & Rotation Animation"), backgroundColor: Colors.indigo.shade900,),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -47,6 +47,7 @@ class _AnimatedOpacityRotationExampleState extends State<AnimatedOpacityRotation
             ),
             const SizedBox(height: 40),
             ElevatedButton.icon(
+              style: ButtonStyle(backgroundColor:MaterialStateProperty.all(Colors.indigo.shade900)),
               onPressed: _toggleAnimation,
               icon: const Icon(Icons.animation_outlined),
               label: const Text("Animate"),
