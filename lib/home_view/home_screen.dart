@@ -3,6 +3,7 @@
 
 
 import 'package:unique_widgets/unique_widgets/52_animated_widget_p3/animated_widget_p3.dart';
+import 'package:unique_widgets/unique_widgets/53_reorderable_list_view/reorderable_list_view.dart';
 
 import '../constants/screen_path.dart';
 
@@ -344,6 +345,13 @@ class HomeScreen extends StatelessWidget {
         subtitle: 'Smooth fade and rotate transitions',
         icon: Icons.blur_circular,
         destination: const AnimatedOpacityRotationExample(),
+      ),
+
+      _WidgetItem(
+        title: 'ReorderableListView',
+        subtitle: 'Drag & drop list items to reorder them',
+        icon: Icons.drag_handle_rounded,
+        destination: const ReorderableListViewExample(),
       ),
 
 
