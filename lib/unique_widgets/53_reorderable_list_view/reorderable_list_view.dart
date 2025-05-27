@@ -19,7 +19,7 @@ class _ReorderableListViewExampleState extends State<ReorderableListViewExample>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Reorder Tasks')),
+      appBar: AppBar(title: const Text('Reorder Tasks'), backgroundColor: Colors.indigo.shade900,),
       body: ReorderableListView.builder(
         padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
         itemCount: tasks.length,

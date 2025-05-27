@@ -60,7 +60,6 @@ export 'package:unique_widgets/unique_widgets/48_aspect_ratio/aspect_ratio.dart'
 export 'package:unique_widgets/unique_widgets/49_grid_tile_and_grid_tile_bar/grid_tile_and_grid_tile_bar.dart';
 export 'package:unique_widgets/unique_widgets/50_animated_widget_p1/animated_widget_p1.dart';
 export 'package:unique_widgets/unique_widgets/51_animated_widget_p2/animated_widget_p2.dart';
-
 export 'package:unique_widgets/unique_widgets/52_animated_widget_p3/animated_widget_p3.dart';
 export 'package:unique_widgets/unique_widgets/53_reorderable_list_view/reorderable_list_view.dart';
 
