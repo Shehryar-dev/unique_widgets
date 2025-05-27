@@ -2,8 +2,6 @@
 
 
 
-import 'package:unique_widgets/unique_widgets/52_animated_widget_p3/animated_widget_p3.dart';
-import 'package:unique_widgets/unique_widgets/53_reorderable_list_view/reorderable_list_view.dart';
 
 import '../constants/screen_path.dart';
 
