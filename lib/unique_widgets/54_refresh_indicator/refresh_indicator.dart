@@ -27,10 +27,10 @@ class _RefreshIndicatorExampleState extends State<RefreshIndicatorExample> {
       appBar: AppBar(
         title: const Text("Pull to Refresh List"),
         centerTitle: true,
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.indigo.shade900,
       ),
       body: RefreshIndicator(
-        color: Colors.teal,
+        color: Colors.indigo.shade900,
         onRefresh: _refreshItems,
         child: ListView.builder(
           physics: const AlwaysScrollableScrollPhysics(),
@@ -41,7 +41,7 @@ class _RefreshIndicatorExampleState extends State<RefreshIndicatorExample> {
               elevation: 3,
               child: ListTile(
                 leading: CircleAvatar(
-                  backgroundColor: Colors.teal,
+                  backgroundColor: Colors.indigo.shade900,
                   child: Text(
                     '${index + 1}',
                     style: const TextStyle(color: Colors.white),
