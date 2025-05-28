@@ -352,7 +352,12 @@ class HomeScreen extends StatelessWidget {
         destination: const ReorderableListViewExample(),
       ),
 
-
+      _WidgetItem(
+        title: 'RefreshIndicator',
+        subtitle: 'Pull to refresh scrollable list',
+        icon: Icons.refresh, // You can choose another if preferred
+        destination: const RefreshIndicatorExample(),
+      ),
 
 
 
