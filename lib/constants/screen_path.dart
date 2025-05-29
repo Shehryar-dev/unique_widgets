@@ -63,6 +63,7 @@ export 'package:unique_widgets/unique_widgets/51_animated_widget_p2/animated_wid
 export 'package:unique_widgets/unique_widgets/52_animated_widget_p3/animated_widget_p3.dart';
 export 'package:unique_widgets/unique_widgets/53_reorderable_list_view/reorderable_list_view.dart';
 export 'package:unique_widgets/unique_widgets/54_refresh_indicator/refresh_indicator.dart';
+export 'package:unique_widgets/unique_widgets/55_dismissible_widget/dismissible.dart';
 
 
 

@@ -1,4 +1,3 @@
-import 'package:unique_widgets/unique_widgets/55_dismissible_widget/dismissible.dart';
 
 import '../constants/screen_path.dart';
 
