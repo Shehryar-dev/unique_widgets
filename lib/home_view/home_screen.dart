@@ -1,3 +1,5 @@
+import 'package:unique_widgets/unique_widgets/55_dismissible_widget/dismissible.dart';
+
 import '../constants/screen_path.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -354,6 +356,12 @@ class HomeScreen extends StatelessWidget {
         destination: const RefreshIndicatorExample(),
       ),
 
+      _WidgetItem(
+        title: 'Dismissible',
+        subtitle: 'Swipe to remove list items',
+        icon: Icons.swipe, // or Icons.delete_forever
+        destination: DismissibleExample(),
+      ),
 
 
 
