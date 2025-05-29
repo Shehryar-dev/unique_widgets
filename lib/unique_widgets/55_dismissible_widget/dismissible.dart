@@ -8,7 +8,7 @@ class DismissibleExample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Dismissible Example')),
+      appBar: AppBar(title: const Text('Dismissible Example'), backgroundColor: Colors.indigo.shade900,),
       body: ListView.builder(
         itemCount: items.length,
         itemBuilder: (context, index) {
