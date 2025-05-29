@@ -63,6 +63,7 @@ I created this project to enhance my Flutter skills by practicing advanced and u
 - [x] **AnimatedOpacity & AnimatedRotation Example** (Added on: *May 26, 2025*)
 - [x] **ReOrderAbleListView Example** (Added on: *May 27, 2025*)
 - [x] **RefreshIndicator Example** (Added on: *May 28, 2025*)
+- [x] **Dismissible Example** (Added on: *May 29, 2025*)
 - [ ] Upcoming widgets (Stay tuned...)
 
 ## Why This Project?
